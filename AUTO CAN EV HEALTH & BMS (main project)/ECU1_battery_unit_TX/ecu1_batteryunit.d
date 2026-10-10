@@ -1,0 +1,9 @@
+ecu1_batteryunit.o: ECU1_BatteryUnit.c
+ecu1_batteryunit.o: C:\KeilARM\ARM\INC\Philips\lpc21xx.h
+ecu1_batteryunit.o: header.h
+ecu1_batteryunit.o: C:\KeilARM\ARM\RV31\INC\stdint.h
+ecu1_batteryunit.o: delay.h
+ecu1_batteryunit.o: can2_txdriver.c
+ecu1_batteryunit.o: C:\KeilARM\ARM\RV31\INC\stdio.h
+ecu1_batteryunit.o: C:\KeilARM\ARM\RV31\INC\stdlib.h
+ecu1_batteryunit.o: C:\KeilARM\ARM\RV31\INC\string.h

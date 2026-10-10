@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'ECU2_MotorcontrolUnit_project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ecu2_motorcontrolunit_project.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ecu2_motorcontrolunit_project.o" --strict --scatter "ECU2_MotorcontrolUnit_project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU2_MotorcontrolUnit_project.map" -o "ECU2_MotorcontrolUnit_project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ECU2_MotorcontrolUnit_project.axf'
+### ADS-LD Command File: 'ECU2_MotorcontrolUnit_project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ECU2_MotorcontrolUnit_project.lnp', Handle=0x0000013C
+### Writing '.lnp' file
+### ADS-LD Command file 'ECU2_MotorcontrolUnit_project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

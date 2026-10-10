@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "ecu1_batteryunit.o" --strict --scatter "ECU1_BatteryUnit.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU1_BatteryUnit.map" -o "ECU1_BatteryUnit.axf"

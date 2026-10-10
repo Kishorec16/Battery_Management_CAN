@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "ecu2_motorcontrolunit_project.o" --strict --scatter "ECU2_MotorcontrolUnit_project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU2_MotorcontrolUnit_project.map" -o "ECU2_MotorcontrolUnit_project.axf"

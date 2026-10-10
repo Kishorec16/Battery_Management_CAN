@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'ECU1_BatteryUnit.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ecu1_batteryunit.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ecu1_batteryunit.o" --strict --scatter "ECU1_BatteryUnit.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU1_BatteryUnit.map" -o "ECU1_BatteryUnit.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ECU1_BatteryUnit.axf'
+### ADS-LD Command File: 'ECU1_BatteryUnit.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ECU1_BatteryUnit.lnp', Handle=0x000000D4
+### Writing '.lnp' file
+### ADS-LD Command file 'ECU1_BatteryUnit.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

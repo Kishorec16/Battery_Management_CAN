@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v25ce7k2\ARM7\AUTO CAN EV HEALTH AND BMS\ECU3_dashboardunit_RX\ECU3_DashboardUnit_project.uvproj
+Project File Date:  08/25/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling ECU3_DashboardUnit_project.c...
+ECU3_DashboardUnit_project.c(37): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+ECU3_DashboardUnit_project.c:           sprintf(temp,"BTEMP:%d ",(int)temperature);
+ECU3_DashboardUnit_project.c:                   ^
+ECU3_DashboardUnit_project.c(46): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+ECU3_DashboardUnit_project.c:           sprintf(volt,"BAT_V:%.1fV",voltage);
+ECU3_DashboardUnit_project.c:                   ^
+ECU3_DashboardUnit_project.c(56): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+ECU3_DashboardUnit_project.c:           sprintf(I,
+ECU3_DashboardUnit_project.c:                   ^
+ECU3_DashboardUnit_project.c(96): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+ECU3_DashboardUnit_project.c:               sprintf(m_temp,"ENGINE_TEMP:%dC",(int)motor_temperature);
+ECU3_DashboardUnit_project.c:                       ^
+ECU3_DashboardUnit_project.c: ECU3_DashboardUnit_project.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=10748 RO-data=192 RW-data=0 ZI-data=1256  
+"ECU3_DashboardUnit_project.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10748 RO-data=192 RW-data=0 ZI-data=1256  
+"ECU3_DashboardUnit_project.axf" - 0 Error(s), 0 Warning(s).

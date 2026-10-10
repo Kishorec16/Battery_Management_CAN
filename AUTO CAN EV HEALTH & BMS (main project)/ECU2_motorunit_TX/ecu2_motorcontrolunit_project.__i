@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "ecu2_motorcontrolunit_project.o" --omf_browse "ecu2_motorcontrolunit_project.crf" --depend "ecu2_motorcontrolunit_project.d" "ECU2_MotorcontrolUnit_project.c"
